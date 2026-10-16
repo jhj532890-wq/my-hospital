@@ -573,3 +573,78 @@ footer {
 .doctor-container {
     box-shadow: none;
 }
+
+/* STEP 14 - 진료 상세 페이지 */
+
+.detail-hero {
+    background: #F6FAFD;
+    text-align: center;
+    padding: 85px 20px;
+}
+
+.detail-hero h1 {
+    font-size: 40px;
+    color: #203E53;
+}
+
+.detail-hero p {
+    color: #647C8C;
+}
+
+.detail-content {
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 70px 20px;
+    text-align: center;
+}
+
+.detail-content > p {
+    color: #647C8C;
+    line-height: 1.9;
+    margin-bottom: 40px;
+}
+
+.detail-box {
+    background: #F6FAFD;
+    padding: 25px;
+    margin-bottom: 18px;
+    border-radius: 12px;
+    text-align: left;
+}
+
+.detail-box h3 {
+    color: #2675A5;
+}
+
+.detail-box p {
+    color: #647C8C;
+}
+
+/* 모바일 화면 */
+@media (max-width: 768px) {
+
+    .detail-hero {
+        padding: 60px 20px;
+    }
+
+    .detail-hero h1 {
+        font-size: 30px;
+    }
+
+    .detail-content {
+        padding: 50px 20px;
+    }
+}
+
+/* STEP 14 - 클릭 가능한 카드 */
+
+.card-link {
+    display: block;
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.card-link:hover {
+    background: #EAF3F9;
+}
